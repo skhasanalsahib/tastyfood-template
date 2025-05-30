@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  background-color: white;
+  font-family: "Fredoka", sans-serif;
+}
+
+@layer utilities {
+  .text-chinese-yellow {
+    color: #fcb203;
+  }
+
+  .bg-chinese-yellow {
+    background-color: #fcb203;
+  }
+}
